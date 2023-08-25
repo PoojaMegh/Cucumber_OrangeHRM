@@ -12,7 +12,7 @@ Feature: Verify Organization name is updated
       #  10. User click on about section
       #  11. Verify that updated Organization name display as ""Anything""
 
-  @OrgNameUpdated
+  @OrgNameUpdated @regression
   Scenario: Verify when user update company name that should get reflected in company's about section
     Given user login using "admin" credentials
     Then user navigate to "HR Administration" dashboard left menu

@@ -7,7 +7,7 @@ Feature: Verify User able to login and 9 widgets should get displayed
       #  5. Verify below widget displayed on Dashboard Page
       #  Quick Access,Buzz Latest Posts,My Actions,Headcount by Location,Employees on Leave Today,Time At Work,Latest Documents,Latest News,COVID-19 Report
 
-  @widgets @smoke
+  @widgets @smoke @regression
   Scenario: Verify User able to login and all widgets should get displayed
     Given user login using "admin" credentials
     Then user verify Employee Management Header is Displayed

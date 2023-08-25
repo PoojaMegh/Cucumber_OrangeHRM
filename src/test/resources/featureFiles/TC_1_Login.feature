@@ -6,7 +6,7 @@ Feature: Verify Login Functionality
 #  3. User Login with valid credential
 #  4. User should navigate to home page, Verify ""Employee Management"" header should be visible.
 
-  @LoginWithValidCredentials @smoke
+  @LoginWithValidCredentials @smoke @regression
   Scenario Outline: Verify User login with Valid Credentials
     When user verify logo is displayed on Login Page
     Then user enter user name as "<UserName>" to login

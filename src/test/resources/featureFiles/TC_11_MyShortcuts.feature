@@ -5,7 +5,7 @@ Feature: Verify My Shortcut List
 #  3. User click on share icon button beside the question mark on top right corder
 #  4. User able to see 9 shortcut is displayed
 
-  @MyShortcut
+  @MyShortcut @regression
   Scenario: Verify My Shortcut list displays on click on share icon
     Given user login using "admin" credentials
     When user navigate to "my-shortcut" icon
