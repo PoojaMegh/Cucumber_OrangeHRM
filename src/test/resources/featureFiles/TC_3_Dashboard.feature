@@ -9,7 +9,7 @@ Feature: Verify Company Details and Employees are non-zero
     #  7. Verify Employee is more than 0
     #  8. Click on OK button on popup
 
-  @EmployeeCount @smoke
+  @EmployeeCount @smoke @regression
   Scenario: Verify Company Details and Employees are non-zero
     Given user login using "admin" credentials
     Then user verify User profile is displayed

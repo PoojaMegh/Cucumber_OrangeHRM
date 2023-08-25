@@ -7,7 +7,7 @@ Feature: Verify value display in table according to pagination
     #  5. Verify by default 50 record should get display in table.
     #  6. Verify total record and showing count of record in right corner of page
 
-  @ManageUserRolesRecordSummary
+  @ManageUserRolesRecordSummary @regression
   Scenario: Verify correct record summary is displayed at right corner of page
     Given user login using "admin" credentials
     Then user navigate to "HR Administration" dashboard left menu
